@@ -32,6 +32,7 @@ namespace WpfApplication1
             this.lb_view.Items.Add(content);
             if(element==gd_2)
             {
+                  //当 RoutedEventArgs.Handled 属性设置为true 就不会再往下传递了
                 e.Handled = true;
             }
         }

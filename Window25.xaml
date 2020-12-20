@@ -8,7 +8,7 @@
             <Grid x:Name="gd_3" Margin="10" Background="Aqua" local:TimeButton.ReportTime="ReportTimeHandle">
                 <StackPanel Margin="10" Background="Aquamarine" x:Name="sp_1" local:TimeButton.ReportTime="ReportTimeHandle">
                     <ListBox x:Name="lb_view" MinHeight="30" MaxHeight="150"></ListBox>
-                    <local:TimeButton x:Name="tb_main" local:TimeButton.ReportTime="ReportTimeHandle" Content="Test" Width="50"></local:TimeButton>
+                    <local:TimeButton x:Name="tb_main" local:TimeButton.ReportTime="ReportTimeHandle" Content="Test" Width="50"/>
                 </StackPanel>
             </Grid>
         </Grid>
